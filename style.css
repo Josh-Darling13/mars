@@ -1,0 +1,257 @@
+
+canvas{
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+h1, h2, p, a{
+  color: aliceblue;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  font-size: 3em;
+}
+
+p{
+  font-size: 1.5em;
+  line-height: 1.25;
+}
+
+div{
+  padding: 15px;
+}
+
+header{
+  margin-top: 5%;
+  margin-bottom:50px;
+  background: rgba(26, 0, 0, 0.6);
+  grid-column: 2/span 10;
+  padding: 2rem;
+  box-shadow: -1px 3px 16px 4px rgba(255,255,255,0.84) inset;
+  -webkit-box-shadow: -1px 3px 16px 4px rgba(255,255,255,0.84) inset;
+  -moz-box-shadow: -1px 3px 16px 4px rgba(255,255,255,0.84) inset;
+  border-radius: 10px;
+  text-align: center;
+  width: 85%;
+}
+
+section{
+  padding: 1rem;
+  background: var(--dark-bg);
+  background: rgba(26, 0, 0, 0.6);
+  box-shadow: -1px 3px 16px 4px rgba(255,255,255,0.84) inset;
+  -webkit-box-shadow: -1px 3px 16px 4px rgba(255,255,255,0.84) inset;
+  -moz-box-shadow: -1px 3px 16px 4px rgba(255,255,255,0.84) inset;
+  border-radius: 10px;
+  margin-bottom:50px;
+  width: 93%;
+}
+
+#pong{
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+
+img{
+  width:100%;
+  height: auto;
+  border: #999 solid 1px;
+  border-radius: 10px;
+}
+
+.icon{
+  width: 60px;
+  height:auto;
+  border: none;
+  padding: 0;
+}
+
+ul {
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content:space-evenly;
+  align-items: flex-start;
+  list-style-type: none;
+  padding: 15px;
+  text-align: center;
+}
+
+li{
+  color: aliceblue;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  border-radius: 30px;
+  margin: 15px;
+  margin-bottom: 10px;
+  padding: 14px;
+  background: rgba(159, 4, 4, 0.6);
+  box-shadow: -1px 3px 16px 4px rgba(3, 3, 3, 0.84) inset;
+  -webkit-box-shadow: -1px 3px 16px 4px rgba(0, 0, 0, 0.84) inset;
+  -moz-box-shadow: -1px 3px 16px 4px rgba(0, 0, 0, 0.84) inset;
+}
+
+footer{
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  background: rgba(26, 0, 0, 0.6);
+  box-shadow: -1px 3px 16px 4px rgba(255,255,255,0.84) inset;
+  -webkit-box-shadow: -1px 3px 16px 4px rgba(255,255,255,0.84) inset;
+  -moz-box-shadow: -1px 3px 16px 4px rgba(255,255,255,0.84) inset;
+  border-radius: 10px;
+  margin-bottom: 15%;
+}
+
+#socialist{
+display: flex;
+justify-content: center;
+}
+
+/*
+*************************************************************************
+*/
+@media only screen and (min-width: 821px) {
+  /*Tablet styles here */
+
+main{
+  position: absolute;
+  width: 100vw;
+  color: antiquewhite;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  gap: 5px;
+  width: none;
+}
+
+h1, h2, p, a{
+  color: aliceblue;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  font-size: 3em;
+}
+
+p{
+  font-size: 1.5em;
+}
+
+div{
+  padding: 15px;
+}
+
+header{
+  margin-top: 5%;
+  grid-column: 2/span 11;
+  padding: 2rem;
+  box-shadow: -1px 3px 16px 4px rgba(255,255,255,0.84) inset;
+  -webkit-box-shadow: -1px 3px 16px 4px rgba(255,255,255,0.84) inset;
+  -moz-box-shadow: -1px 3px 16px 4px rgba(255,255,255,0.84) inset;
+  border-radius: 10px;
+  text-align: center;
+  width: none;
+}
+
+section{
+  grid-column: 4/10;
+  padding: 1rem;
+  box-shadow: -1px 3px 16px 4px rgba(255,255,255,0.84) inset;
+  -webkit-box-shadow: -1px 3px 16px 4px rgba(255,255,255,0.84) inset;
+  -moz-box-shadow: -1px 3px 16px 4px rgba(255,255,255,0.84) inset;
+  border-radius: 10px;
+  width: none;
+}
+
+img{
+  width:45%;
+  height: auto;
+  border: #999 solid 1px;
+  border-radius: 10px;
+}
+
+.icon{
+  width: 80px;
+  height:auto;
+}
+
+ul, li{
+  display: flex;
+  flex-flow:wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  list-style-type: none;
+  padding: 10px;
+  text-align: center;
+}
+
+li{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.about{
+  grid-column: 4/7;
+  grid-row-start:auto;
+  height: auto;
+  height: 50%;
+  align-items: start;
+  width: 85%;
+}
+
+#headshot-sized{
+  float: left;
+  margin: 15px;
+}
+
+footer{
+  padding:0px;
+  grid-column: 7/10;
+  box-shadow: -1px 3px 16px 4px rgba(255,255,255,0.84) inset;
+  -webkit-box-shadow: -1px 3px 16px 4px rgba(255,255,255,0.84) inset;
+  -moz-box-shadow: -1px 3px 16px 4px rgba(255,255,255,0.84) inset;
+  border-radius: 10px;
+  width: 93%;
+}
+
+address{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+#socialist{
+display: flex;
+justify-content: center;
+/* background: none;
+box-shadow: none;
+-webkit-box-shadow: none;
+-moz-box-shadow: none; */
+}
